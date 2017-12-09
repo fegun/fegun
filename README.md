@@ -17,6 +17,9 @@
   - css http://css.cuishifeng.cn/
   - 前端开发备忘录（合集） https://zhuanlan.zhihu.com/p/30789645
 
+ - 面试类
+  - 前端面试题2.0 https://hawx1993.github.io/Front-end-Interview-Questions/#/
+
 ## 大厂前端资源
 - 腾讯AlloyTeam http://www.alloyteam.com/
 - 360齐舞团 https://75team.com/
