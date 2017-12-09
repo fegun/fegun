@@ -15,6 +15,7 @@
   - 各种编程语言 https://devdocs.io/
   - jquery http://jquery.cuishifeng.cn/
   - css http://css.cuishifeng.cn/
+  - 前端开发备忘录（合集） https://zhuanlan.zhihu.com/p/30789645
 
 ## 大厂前端资源
 - 腾讯AlloyTeam http://www.alloyteam.com/
