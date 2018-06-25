@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>标题一</title>
+</head>
+
+<body>
+    <!-- 方法一 -->
+    <!-- <script type="text/javascript">
+        document.body.onfocus = function () {
+            document.title = '标题一';
+        };
+        document.body.onblur = function () {
+            document.title = '标题二';
+        };
+    </script> -->
+    <!-- 方法二 -->
+    <script>
+        document.addEventListener('visibilitychange',function(){ //浏览器切换事件
+            if(document.visibilityState=='hidden') { //状态判断
+                //normal_title=document.title;
+                document.title = '标题二'; 
+            }else {
+                document.title = '标题一';
+            }
+        });
+    </script>
+    <!-- https://www.cnblogs.com/fangsmile/p/8296348.html -->
+</body>
+
+</html>
